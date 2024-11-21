@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+
+   <!-- Navbar -->
+   <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cadastre-se.html">Cadastre-se</a></li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Seu Carrinho de Compras</h1>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                    <th>Remover</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="/g2bt_2_bk.jpg" alt="Produto 1"></td>
+                    <td>Fone de Ouvido Gamer</td>
+                    <td>R$ 299,00</td>
+                    <td>
+                        <input type="number" value="1" min="1" style="width: 50px; padding: 5px;">
+                    </td>
+                    <td>R$ 299,00</td>
+                    <td><span class="remove-item">Remover</span></td>
+                </tr>
+                <tr>
+                    <td><img src="/158657-800-800.webp" alt="Produto 2"></td>
+                    <td>Cadeira Gamer</td>
+                    <td>R$ 75,65</td>
+                    <td>
+                        <input type="number" value="1" min="1" style="width: 50px; padding: 5px;">
+                    </td>
+                    <td>R$ 75,65</td>
+                    <td><span class="remove-item">Remover</span></td>
+                </tr>
+                <tr>
+                    <td><img src="/cadeira_gamer_xperience_ultra_vermelha_1.webp" alt="Produto 3"></td>
+                    <td>PC Gamer</td>
+                    <td>R$ 659,91</td>
+                    <td>
+                        <input type="number" value="1" min="1" style="width: 50px; padding: 5px;">
+                    </td>
+                    <td>R$ 659,91</td>
+                    <td><span class="remove-item">Remover</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <div><strong>Total:</strong></div>
+            <div><strong>R$ 1.034,56</strong></div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="checkout.html" class="btn">Finalizar Compra</a>
+            <a href="index.html" class="btn" style="background-color: #6c757d;">Continuar Comprando</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SmartTech</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+</body>
+</html>
